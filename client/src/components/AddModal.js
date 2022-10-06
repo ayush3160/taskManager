@@ -26,7 +26,7 @@ export default function AddModal({ close,handleReload }) {
   };
 
   const handleAdd = () => {
-    fetch("http://localhost:5000/add-task", {
+    fetch("/add-task", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

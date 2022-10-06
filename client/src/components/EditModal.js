@@ -32,9 +32,9 @@ export default function EditModal({ task, close,handleReload}) {
         const id = task.id
 
         console.log(id)
-        
 
-        fetch(`http://localhost:5000/updateTask/${id}`,{
+
+        fetch(`/updateTask/${id}`,{
             method : 'PATCH',
             headers : {
                 'Content-Type' : "application/json"

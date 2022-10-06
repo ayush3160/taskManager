@@ -14,7 +14,7 @@ export default function Home() {
   const [reload,setReload] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/tasks")
+    fetch("/tasks")
       .then((res) => {
         return res.json();
       })
@@ -49,7 +49,7 @@ export default function Home() {
   }
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/deleteTask/${id}`, {
+    fetch(`/deleteTask/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
