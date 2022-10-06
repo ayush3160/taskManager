@@ -1,6 +1,6 @@
-# todolist
+# Task-Manager
 
-To-Do List Application..
+Task-Manager Web Application..
 
 # How to Use The Code
 
@@ -10,8 +10,7 @@ To-Do List Application..
 
 > You also have to create .env file having two key & value pair.
 > 1.  DATABASE : {your own database}
-> 2.  SECRET_KEY : {jwt secret key}
 
 # Live Preview -
 
-https://to-do-ayush.herokuapp.com/
+https://task-manager-2003.herokuapp.com/
